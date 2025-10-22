@@ -1,0 +1,36 @@
+
+#manufacturers-tab {
+  margin: 20px 0;
+}
+.az-tabs {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+.az-btn {
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.az-btn.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.manufacturer-list-container {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+.manufacturer-list {
+  display: none;
+}
+.manufacturer-list.active {
+  display: block;
+}
